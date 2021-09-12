@@ -1,0 +1,13 @@
+a
+HOGE
+b
+c
+d
+e
+f
+<<<<<<< HEAD
+g
+=======
+hh
+i
+>>>>>>> new-branchB
