@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+}
+header {
+  background-image: url("file:///home/bala/%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/Coffe&Flower%20/img/bg-page-header_sp.jpg");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+header h3 {
+  margin: 0;
+  padding: 8px;
+  font-size: 24px;
+  width: 100%;
+}
+.header-top {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+}
+.gnav {
+  position: fixed;
+  top: 0;
+  right:0;
+  background: #c32d4d;
+  width: 100%;
+  height: 100%;
+  color: white;
+  user-select:none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  
+}
+.gnav.show{
+  visibility:visible;
+  transition:visibilty .6s;
+}
+#close{
+  position:absolute;
+  top:16px;
+  right:16px;
+  font-size:40px;
+  cursor:pointer;
+  
+}
+.gnav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.gnav li {
+  margin-bottom: 16px;
+  cursor:pointer;
+}
+.gnav a{
+  color:white;
+  text-decoration:none;
+}
+.gnav ul li:nth-child(4){
+  opacity:0.5;
+}
+.btnMenu {
+  right: 0;
+  height: 60px;
+  width: 60px;
+  padding: 0px;
+  border-radius: 4px;
+  background-color: #c32d4d;
+  border: none;
+  cursor:pointer;
+}
+#open{
+  font-size:40px;
+  color:white;
+}
+
+.header-right ul {
+  list-style: none;
+}
+.header-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.header-main2 {
+  text-align: center;
+}
+.header-main h1 {
+  color: red;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+.header-main p {
+  margin-top: 8px;
+}
+main {
+  padding: 16px 16px;
+  text-align: center;
+  margin-bottom:32px;
+}
+.main-contents {
+  text-align: left;
+}
+.content {
+  border-bottom: 1px solid rgba(17, 15, 15, 0.2);
+}
+footer {
+  background: #c32d4d;
+  color: white;
+  height: 120px;
+  text-align: center;
+  bottom: 0;
+}
+footer ul {
+  margin: 0;
+  padding: 30px 16px 0px;
+  list-style: none;
+  display: flex;
+  justify-content:center;
+}
+footer li{
+  margin-right:24px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer p {
+  font-size: 12px;
+  opacity: 0.6;
+}

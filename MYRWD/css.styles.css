@@ -1,0 +1,61 @@
+/* commc */
+/* small screen */
+body{
+  margin:0;
+  flex-direction:column;
+}
+
+aside{
+  display:none;
+}
+.image{
+  background:pink;
+  height:100px;
+}
+
+.text{
+  background:silver;
+  height:100px;
+}
+.image1{
+  display:none;
+}
+/* medium sceen */
+@media ( min-width :600px) and (max-width : 799px ) {
+  section{
+    display:flex;
+   flex-direction:row;
+  }
+  .image{
+    width:200px;
+  }
+  .text{
+    flex:1;
+  }
+}
+/* large screen */
+@media (min-width :800px) and (max-width : 999px){
+section{
+  width:800px;
+  margin :0 auto;
+  display:flex;
+  flex:1;
+  flex-direction:row;
+  
+}
+aside{
+  display:block;
+  background:plum;
+  width:160px;
+}
+}
+@media (min-width: 1000px){
+  .section{
+   flex-direction:row;
+  }
+  .image1{
+    display:block;
+    background:red;
+    width:100px;
+  }
+}

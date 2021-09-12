@@ -1,0 +1,17 @@
+body{
+  padding:8px;
+  margin:0;
+}
+.img-contents{
+  display:flex;
+  justify-content:space-between;
+  
+}
+.img-content{
+  width:calc((100% - 16px) / 3);
+}
+
+.img-content img{
+  display:block;
+  max-width:100%;
+}
