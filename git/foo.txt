@@ -4,4 +4,9 @@ c
 d
 e
 f
+<<<<<<< HEAD
 g
+=======
+hh
+i
+>>>>>>> new-branchB

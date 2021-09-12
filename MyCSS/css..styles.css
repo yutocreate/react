@@ -1,0 +1,15 @@
+section-items{
+  display:flex;
+  margin-bottom:24px;
+ justify-content:space-between;
+}
+.pic{
+  width:180px;
+}
+section-items:nth-child(even){
+  flex-direction:row-reverse;
+  
+}
+.desc{
+  width:calc(100% - 180px - 32px);
+}
